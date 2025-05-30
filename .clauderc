@@ -1,0 +1,16 @@
+{
+  "mcp": {
+    "servers": {
+      "code-intelligence": {
+        "command": "/Users/rahulverma/projects/CodeInteliMCP/.venv/bin/python3",
+        "args": [
+          "/Users/rahulverma/projects/CodeInteliMCP/code_intelligence_mcp/server_minimal.py"
+        ],
+        "env": {
+          "CODE_INTEL_PROJECT_ROOT": ".",
+          "CODE_INTEL_DATA_DIR": "./.code-intelligence"
+        }
+      }
+    }
+  }
+}

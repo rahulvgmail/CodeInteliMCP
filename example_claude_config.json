@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "code-intelligence": {
+      "command": "python",
+      "args": ["/ABSOLUTE/PATH/TO/CodeInteliMCP/code_intelligence_mcp/server_minimal.py"],
+      "env": {
+        "CODE_INTEL_PROJECT_ROOT": "/ABSOLUTE/PATH/TO/YOUR/PROJECT",
+        "CODE_INTEL_DATA_DIR": "/ABSOLUTE/PATH/TO/YOUR/PROJECT/.code-intelligence"
+      }
+    }
+  }
+}
